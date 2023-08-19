@@ -11,15 +11,16 @@ const Navbar = () => { return (
     <div className="logo-and-search-container">
     <Link href="/">
         <div className="logo">
-            <Image src={Logo} alt="Logo" 
+            <Image src={Logo} 
+            alt="Autoimmune Eats Logo" 
             width={255}
             height={100} />
         </div>  </Link>
-        <div className="search">
+        {/* <div className="search"> */}
             {/* ********FIGURE OUT HOW TO ADD USER INPUT*********** Below is placeholder */}
-            {/* <input>Search</input> */} 
-            <div className="search">Search</div>
-        </div>
+            <form className="search">
+            Search: <input type="type"></input></form>
+        {/* </div> */}
   
     </div>
     <div className="navigation-links-container">

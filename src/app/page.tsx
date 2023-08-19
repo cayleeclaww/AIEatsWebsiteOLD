@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-    <div className="container mx-auto px-4">
+    <div className="container">
     <h1>Main page</h1>
     <p>This is where the main page content starts</p> </div>
     </>
